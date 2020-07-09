@@ -14,7 +14,6 @@ networks:
 
 volumes:
   db_data:
-    name: "content-hub-farm-database"
   nfsmount:
     driver: local
     driver_opts:
